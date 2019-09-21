@@ -1,4 +1,4 @@
 // init camera
-import {Camera} from "./camera.js.js";
+import {Camera} from "./camera.js";
 
 new Camera();
