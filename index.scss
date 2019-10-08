@@ -8,7 +8,7 @@ body {
     overflow: hidden;
 }
 #snap-container {
-    position: absolute;
+    display: flex;
     bottom: 50px;
     left: 0;
     right: 0;
@@ -22,7 +22,21 @@ body {
     margin: 0 auto;
     transition: color 200ms ease-out;
     cursor: pointer;
+
+    &:hover {
+        background-color: rgb(220, 220, 220);
+    }
 }
-#snap:hover {
-    background-color: rgb(220, 220, 220);
+#rotate-camera {
+    background-image: url(assets/rotate.svg);
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    margin-right: 2em;
+
+    &:active{
+        height: 90%;
+        width: 90%;
+    }
 }
+
