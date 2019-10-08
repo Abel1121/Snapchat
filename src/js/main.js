@@ -1,7 +1,7 @@
 // init camera
 import {Camera} from "./camera.js";
 
-new Camera().facingMode;
+new Camera();
 
   navigator.mediaDevices.enumerateDevices()
   .then(function(devices) {
