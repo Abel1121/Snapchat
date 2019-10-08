@@ -7,9 +7,9 @@ Simple project with MediaDevices.getUserMedia () 📹🖼
 * VSC
 * HTML/CSS
 * Javascript
-    *MediaDevices.getUserMedia
-    *Import & Export
-    *facingMode: "user" : "environment"
+    * MediaDevices.getUserMedia
+    * Import & Export
+    * facingMode: "user" : "environment"
 
 ## List to do
 * Taking pictures
