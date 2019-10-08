@@ -325,6 +325,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   bottom: 50px;
   left: 0;
   right: 0; }
@@ -335,7 +337,6 @@ body {
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  margin: 0 auto;
   -webkit-transition: color 200ms ease-out;
   -o-transition: color 200ms ease-out;
   transition: color 200ms ease-out;
@@ -350,7 +351,6 @@ body {
   height: 50px;
   width: 50px;
   cursor: pointer;
-  margin-right: 2em;
   background-color: white;
   border-radius: 50%;
   border: 3px solid gray; }
